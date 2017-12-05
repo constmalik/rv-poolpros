@@ -1,0 +1,16 @@
+.section--hero {
+    background-image: url(../img/hero-bg@2x.png);
+    background-size: 440px;
+    background-position: -58px -6px;
+    background-repeat: no-repeat;
+    height: 40px;
+    min-height: 5.5%;
+    transform: scale(2.0);
+    border-bottom: 1px solid black;
+}
+
+.section--filter {
+    background-color: $primary-gray;
+    height: 333px;
+    // placeholder
+}
