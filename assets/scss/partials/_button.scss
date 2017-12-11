@@ -1,0 +1,12 @@
+.button {
+    background-color: white;
+    color: $secondary-blue;
+    border: 1px solid $button-border;
+    border-radius: 3px;
+}
+a.button.secondary {
+    padding: 4px 0;
+    background-color: $primary-blue;
+    color: white;
+    width: 248px;
+}

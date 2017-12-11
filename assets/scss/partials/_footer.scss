@@ -1,0 +1,82 @@
+.footer {
+    .top-footer {
+        background-color: $secondary-blue;
+        .footer-logo {
+            padding-top: 37px;
+            padding-bottom: 26px;  
+        }
+        .footer-social {
+            p {
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 20px;
+                margin-left: 490px;
+            }
+            ul {
+                margin-right: 500px;
+            }
+            @media screen and (max-width:320px) {
+                p {
+                    color: white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-left: 0;
+                }
+                ul {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    .bottom-footer {
+        background-color: $primary-blue;
+        .footer-terms {
+            padding: 0;
+            ul.footer-list {
+                margin: 0;
+                padding: 14px 0 16px 0;
+                li:nth-child(even) {
+                    border-left: 1px solid white;
+                    border-right: 1px solid white;
+                }
+                li {
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                }
+                li a {
+                    color: #fff;
+                    font-size: 10px;
+                    line-height: 17px;
+                    font-style: italic;
+                }
+            }
+            hr {
+                margin: 0 auto;
+                width: 270px;
+            }
+            ul.dealers-list {
+                margin: 0;
+                padding: 16px 0 11px 0;
+                li:nth-child(odd) {
+                    border-right: 1px solid white;
+                }
+                li {
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                }                                
+                li a {
+                    color: #fff;
+                    font-size: 10px;
+                    line-height: 17px;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

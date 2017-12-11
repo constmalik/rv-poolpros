@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="8" y="8" width="14" height="14" id="rect-1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-69.000000, -570.000000)">
+            <g id="Dealer-Result-1" transform="translate(-23.000000, 469.000000)">
+                <g id="Group" transform="translate(91.000000, 100.000000)">
+                    <polygon id="Rectangle-3" fill="#083D8C" points="1.00002 0.99999 29.00001 0.99999 29.00001 29.00004 1.00002 29.00004"></polygon>
+                    <g id="phone-icon">
+                        <image x="8" y="8" width="14" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAALZJREFUKBWNkoERgkAMBIMdfAu0QC1YArXYgrRgC5ZgC1qClvDeMX9OiBkgM8dz91kYwlut1aAJejTR70oQen/FhxwC+SZfb5gCbcInMyuQL/rJB9k9wVeykWWrNoL3VWJ2hr+F7M8SnEP6CT63bQgXN53nkeFocpwiARXve4j7I8RJXyFlJpArQzao1CyvlQ8oHsxgNcd1jKDgeCg8uByQDFSm8xshfrN1vOxUj/2h9fCfL7/rC0YttwMJCGdZAAAAAElFTkSuQmCC"></image>
+                        <use fill-opacity="0" fill="#000000" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,16 +1,30 @@
 .section--hero {
     background-image: url(../img/hero-bg@2x.png);
-    background-size: 440px;
-    background-position: -58px -6px;
+    background-size: 1440px;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 40px;
+    height: 200px;
     min-height: 5.5%;
-    transform: scale(2.0);
-    border-bottom: 1px solid black;
+    // transform: scale(2.0);
+    @media screen and (max-width: 320px) {
+        background-image: url(../img/hero-bg@2x.png);
+        background-size: 440px;
+        background-position: -58px -6px;
+        background-repeat: no-repeat;
+        height: 40px;
+        min-height: 5.5%;
+    }
 }
 
 .section--filter {
-    background-color: $primary-gray;
-    height: 333px;
-    // placeholder
+
+}
+
+.section--dealers {
+    margin-top: 26px;
+    margin-bottom: 84px;
+    @media screen and (max-width: 320px) {
+        margin-top: 26px;
+        margin-bottom: 39px;       
+    }
 }

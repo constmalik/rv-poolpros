@@ -1,0 +1,33 @@
+.dealers-article {
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4.3px 0.7px rgba(230,230,230,1);
+    h2 {
+        font-size: 20px;
+        line-height: 27px;
+        color: $primary-black;
+    }
+    .article-section {
+        p {
+            font-size: 11px;
+            line-height: 16px;
+            font-style: italic;
+        }
+        .article-section__list {
+            list-style-type: none;
+        }
+    }
+    .article-footer {
+        background-color: $primary-gray;
+        padding: 15px 1px 2px 30px;
+        &__list {
+            // margin: 0 auto;
+            li {
+                font-size: 12px;
+                img {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
